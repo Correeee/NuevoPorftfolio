@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: var(--color-gris);
+    background-color: var(--color-negro);
     background-image: url(../multimedia/background/envelope.png);
     background-repeat: no-repeat;
     background-position: left;
