@@ -1,11 +1,12 @@
 let progressNumber = document.getElementById('progressNumber') 
 let count = 0
+const finalCount = 50
 
 setTimeout(() => {
     const interval = setInterval(() => {
         count += 1
         progressNumber.innerText = count
-        if(count == 50){
+        if(count == finalCount){
             clearInterval(interval)
         }
         if(count == 10){
