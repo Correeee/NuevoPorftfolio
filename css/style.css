@@ -173,6 +173,7 @@ nav ul a:hover{
     width: 100%;
     height: 2rem;
     background-color: var(--color-negro);
+    margin-top: 1rem;
 }
 
 .bar__progress{
@@ -226,9 +227,9 @@ nav ul a:hover{
 
 .bar__icon{
     display: none;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 4.4rem;
 }
 
 /* ------------------------------ MEDIAQUERIES ------------------------------ */
@@ -265,8 +266,11 @@ nav ul a:hover{
     }
 
     .bar__icon{
+        width: 3rem;
+        height: 3rem;
         margin-right: 2.4rem;
     }
+
 }
 
 
