@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-negro: #222222;
+    --color-gris: #E9E9E9;
+    --color-rojo: #e63946;
+}
+
+body{
+    background-image: url(../multimedia/background/dev.png);
+    background-size: 70%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(8px);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-negro);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem;
+    height: 22rem;
+    transition: 0.3s;
+    border: 1px solid var(--color-negro);
+    border-radius: 5px;
+}
+
+.card a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color-gris);
+    text-decoration: none;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.card:hover{
+    background-color: var(--color-gris);
+}
+
+.card a:hover{
+    color: var(--color-negro);
+}
+
+.card h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+.card p{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.card img{
+    width: 4rem;
+    height: 4rem;
+    background: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+
+/* ------------------------------- MEDIAQURIES ------------------------------ */
+
+@media screen and (max-width:768px) {
+    .card{
+        height: 25rem;
+    }
+}
