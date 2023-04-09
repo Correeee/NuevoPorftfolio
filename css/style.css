@@ -174,7 +174,7 @@ nav ul a:hover{
     width: 100%;
     height: 2rem;
     background-color: var(--color-negro);
-    margin-top: 1rem;
+    margin: 1rem 0 ;
 }
 
 .bar__progress{
@@ -262,8 +262,8 @@ nav ul a:hover{
         margin: 2rem ;
     }
     .main__img img{
-        width: 40rem;
-        height: 40rem;
+        width: 30rem;
+        height: 30rem;
     }
 
     .bar__icon{
