@@ -9,15 +9,15 @@ setTimeout(() => {
         if(count == finalCount){
             clearInterval(interval)
         }
-        if(count == 10){
-            console.log('Desarrollo Web')
-        }
-        if(count == 25){
-            console.log('Javacript')
-        }
-        if(count == 50){
-            console.log('React JS')
-        }
+        // if(count == 10){
+        //     console.log('Desarrollo Web')
+        // }
+        // if(count == 25){
+        //     console.log('Javacript')
+        // }
+        // if(count == 50){
+        //     console.log('React JS')
+        // }
 
     }, 60);
     
