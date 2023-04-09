@@ -195,26 +195,20 @@ nav ul a:hover{
     flex-direction: row;
     width: 4rem;
     text-align: center;
-    margin: 0 1rem 0 0
+    margin: 0 4rem 0 0;
 }
 
 .bar__text h3{
-    margin: 0;
+    margin: 0 0;
 }
 
 .bar__iconos{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 47%;
-    margin-left: 1rem;
-}
-
-.bar__icon{
-    display: none;
-    width: 3rem;
-    height: 3rem;
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes progress {
@@ -230,6 +224,12 @@ nav ul a:hover{
     font-size: 3rem;
 }
 
+.bar__icon{
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 5rem;
+}
 
 /* ------------------------------ MEDIAQUERIES ------------------------------ */
 
@@ -264,10 +264,9 @@ nav ul a:hover{
         height: 40rem;
     }
 
-    .bar__iconos{
-        width: 45%;
+    .bar__icon{
+        margin-right: 2.4rem;
     }
-
 }
 
 
@@ -279,8 +278,18 @@ nav ul a:hover{
         font-size: 3rem;
     }
 
-    .bar__iconos{
-        width: 43%;
+    .bar__text{
+        margin-right: 1rem;
+    }
+
+    .bar__text h3{
+        font-size: 1.8rem;
+    }
+
+    .bar__icon{
+        width: 2rem;
+        height: 2rem;
+        margin-right: 3rem;
     }
 }
 
@@ -309,21 +318,8 @@ nav ul a:hover{
     .bar__icon{
         width: 2rem;
         height: 2rem;
-        margin-right:  0.6rem;
+        margin-right: 1rem;
     }
-
-    .bar__iconos{
-        margin: 0 0;
-    }
-
-    .bar__text{
-        margin: 0;
-    }
-
-    .bar__text h3{
-        font-size: 2rem;
-    }
-
 }
 
 @media screen and (max-width: 425px) {
@@ -343,6 +339,11 @@ nav ul a:hover{
         height: 30rem;
     }
 
+    .bar__icon{
+        width: 1.9rem;
+        height: 1.9rem;
+        margin-right: 1rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -355,17 +356,29 @@ nav ul a:hover{
         height: 4rem;
     }
 
+
     .main__img{
         margin: 2rem 0rem;
     }
 
     .main__img img{
-        width: 27rem;
-        height: 27rem;
+        width: 25rem;
+        height: 25rem;
     }
 
     .bar__text h3{
         font-size: 1.5rem;
     }
+    .bar__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.9rem;
+    }
+}
 
+@media screen and (max-width: 375px) {
+    .main__redes_iconos{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
