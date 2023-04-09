@@ -187,10 +187,34 @@ nav ul a:hover{
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    margin-top: 0.8rem;
 }
 
-.bar__percentage h3{
+.bar__text{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    text-align: center;
+    margin: 0 1rem 0 0
+}
+
+.bar__text h3{
     margin: 0;
+}
+
+.bar__iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 47%;
+    margin-left: 1rem;
+}
+
+.bar__icon{
+    display: none;
+    width: 3rem;
+    height: 3rem;
 }
 
 @keyframes progress {
@@ -205,6 +229,7 @@ nav ul a:hover{
 .main__text h3{
     font-size: 3rem;
 }
+
 
 /* ------------------------------ MEDIAQUERIES ------------------------------ */
 
@@ -239,6 +264,10 @@ nav ul a:hover{
         height: 40rem;
     }
 
+    .bar__iconos{
+        width: 45%;
+    }
+
 }
 
 
@@ -250,6 +279,9 @@ nav ul a:hover{
         font-size: 3rem;
     }
 
+    .bar__iconos{
+        width: 43%;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -273,6 +305,25 @@ nav ul a:hover{
         width: 5rem;
         height: 5rem;
     }
+
+    .bar__icon{
+        width: 2rem;
+        height: 2rem;
+        margin-right:  0.6rem;
+    }
+
+    .bar__iconos{
+        margin: 0 0;
+    }
+
+    .bar__text{
+        margin: 0;
+    }
+
+    .bar__text h3{
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -291,6 +342,7 @@ nav ul a:hover{
         width: 30rem;
         height: 30rem;
     }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -303,13 +355,17 @@ nav ul a:hover{
         height: 4rem;
     }
 
-
     .main__img{
         margin: 2rem 0rem;
     }
 
     .main__img img{
-        width: 25rem;
-        height: 25rem;
+        width: 27rem;
+        height: 27rem;
     }
+
+    .bar__text h3{
+        font-size: 1.5rem;
+    }
+
 }
