@@ -302,4 +302,14 @@ nav ul a:hover{
         width: 4rem;
         height: 4rem;
     }
+
+
+    .main__img{
+        margin: 2rem 0rem;
+    }
+
+    .main__img img{
+        width: 25rem;
+        height: 25rem;
+    }
 }
