@@ -39,7 +39,6 @@ main{
     margin: 1rem;
     height: 22rem;
     transition: 0.3s;
-    /* border: 1px solid var(--color-negro); */
     border-radius: 5px;
 }
 
