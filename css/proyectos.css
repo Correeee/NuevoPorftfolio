@@ -17,6 +17,7 @@ body{
 }
 
 main{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,7 +83,7 @@ main{
 }
 
 
-/* ------------------------------- MEDIAQURIES ------------------------------ */
+/* ------------------------------- MEDIAQUERIES ------------------------------ */
 
 @media screen and (max-width:768px) {
     .card{

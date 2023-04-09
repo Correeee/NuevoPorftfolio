@@ -44,7 +44,7 @@ main{
 }
 
 .main__img{
-    margin: 2rem;
+    margin: 0rem 2rem;
 }
 
 .main__img img{
@@ -125,9 +125,39 @@ nav ul a:hover{
     height: 100vh;
 }
 
+/* --------------------------------- BACK --------------------------------- */
+
+.back img{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    border: 3px solid var(--color-negro);
+    z-index: 999999;
+    margin: 1.5rem;
+    opacity: 70%;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.back img:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
 /* ------------------------------ MEDIAQUERIES ------------------------------ */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1391px) {
+
+    main{
+        flex-direction: column;
+    }
+    .main__text{
+        text-align: center;
+    }
+
     .main__text{
         text-align: center;
     }
@@ -143,7 +173,7 @@ nav ul a:hover{
     }
 
     .main__img{
-        margin: 0;
+        margin: 2rem ;
     }
     .main__img img{
         width: 40rem;
@@ -151,6 +181,7 @@ nav ul a:hover{
     }
 
 }
+
 
 @media screen and (max-width: 768px) {
     .main__text h1{
