@@ -40,7 +40,7 @@ form h2{
     margin: 1rem 0;
     font-size: 5rem;
     font-weight: lighter;
-    text-shadow:6px 6px 12px var(--color-gris), -6px -6px 12px #ffffff;
+    text-shadow:6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
 /* --------------------------------- INPUTS --------------------------------- */
