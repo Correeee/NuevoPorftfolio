@@ -136,7 +136,7 @@ nav ul a:hover{
     border: 3px solid var(--color-negro);
     z-index: 999999;
     margin: 1.5rem;
-    opacity: 70%;
+    opacity: 40%;
     background-color: white;
     transition: 0.3s;
     padding: 1rem;
