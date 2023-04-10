@@ -85,14 +85,15 @@ section p{
     transition: 0.4s;
 }
 
-.skills:hover{
+/* .skills:hover{
     background-color: var(--color-gris);
-}
+    box-shadow: 2px 2px 20px var(--color-negro),
+    -2px -2px 20px var(--color-negro);
+} */
 
 .skills__icons{
     margin: 1rem;
 }
-
 
 .skills h3{
     color: var(--color-negro);
@@ -112,9 +113,7 @@ section p{
     background-color: white;
     border-radius: 10px;
     transition: 0.3s;
-    cursor: pointer;
 }
-
 
 .skills__icon:hover{
     transform: scale(1.2);
