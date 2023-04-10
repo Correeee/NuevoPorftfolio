@@ -9,6 +9,11 @@
     --color-rojo: #e63946;
 }
 
+body{
+    background-color: var(--color-negro);
+    color: white;
+}
+
 .sobremi{
     display: flex;
     flex-direction: row;

@@ -39,7 +39,7 @@ form h2{
     color: var(--color-negro);
     margin: 1rem 0;
     font-size: 5rem;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 /* --------------------------------- INPUTS --------------------------------- */
