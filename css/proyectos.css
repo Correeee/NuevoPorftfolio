@@ -86,6 +86,10 @@ main{
     margin: 1rem;
 }
 
+.span{
+    color: var(--color-rojo);
+}
+
 
 /* ------------------------------- MEDIAQUERIES ------------------------------ */
 
