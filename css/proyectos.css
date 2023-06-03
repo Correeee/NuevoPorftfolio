@@ -36,6 +36,7 @@ main{
     height: 22rem;
     transition: 0.3s;
     border-radius: 5px;
+    padding: 1rem;
 }
 
 .card a{
@@ -96,5 +97,11 @@ main{
 @media screen and (max-width:768px) {
     .card{
         height: 25rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .card{
+        height: 40rem;
     }
 }
