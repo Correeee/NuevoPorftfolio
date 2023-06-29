@@ -10,6 +10,7 @@ body{
     background-position: center right;
     background-repeat: no-repeat;
     background-color: var(--color-negro);
+    overflow-x: hidden;
 }
 
 main{
@@ -102,5 +103,11 @@ main{
 @media screen and (max-width:425px) {
     .card{
         height: 40rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .card a h1{
+        font-size: 2rem;
     }
 }
