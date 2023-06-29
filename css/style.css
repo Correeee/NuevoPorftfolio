@@ -74,6 +74,24 @@ main{
     -20px -20px 60px #ffffff;
 }
 
+.main__redes_iconos-contacto{
+    border-color: #2196F3;
+    animation: zoom 2.5s infinite;
+    padding: 0;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .main__redes_iconos:hover{
     transform: scale(1.2);
 }
