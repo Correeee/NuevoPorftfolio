@@ -111,11 +111,11 @@ section p{
     transition: 0.3s;
 }
 
-.skills__icon:hover{
+/* .skills__icon:hover{
     transform: scale(1.2);
     box-shadow: 1px 1px 5px var(--color-negro),
     -1px 1px 5px var(--color-negro);
-}
+} */
 
 /* ------------------------------ MEDIAQUERIES ------------------------------ */
 
