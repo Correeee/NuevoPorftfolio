@@ -1,7 +1,103 @@
 #projects__section {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
 }
 
+#projects__section a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-negro);
+    border-radius: 10px;
+    color: white;
+    width: 50rem;
+    height: 40rem;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+        margin: 1rem;
+        transition: 0.5s;
+}
+
+.card__container:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px var(--color-negro));
+}
+
+.card__container :nth-child(2){
+    background-color: white;
+    width: 100%;
+    padding: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    background-image: url(../multimedia/background/sobremi.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card__container div {
+    padding: 1rem;
+    text-align: center;
+    height: 50%;
+}
+
+.card__container h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--color-rojo);
+}
+
+.card__container div h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.project__img {
+    width: 30rem;
+    height: 18rem;
+    object-fit: cover;
+    border: 2px solid var(--color-gris);
+    border-radius: 10px;
+}
+
+.card__container span {
+    color: var(--color-rojo);
+}
+
+@media  screen and (max-width: 768px) {
+    .card__container{
+        width: 40rem;
+    }
+}
+
+@media  screen and (max-width: 425px) {
+
+    .card__container img{
+        width: 25rem;
+    }
+
+    .card__container{
+        width: 30rem;
+        height: 45rem;
+    }
+}
