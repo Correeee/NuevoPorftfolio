@@ -1,0 +1,98 @@
+#sobremi__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    margin: 5rem 0;
+    min-height: 100vh;
+}
+
+.sobremi__text p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sobremi__text span{
+    color: var(--color-rojo);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+    padding: 1rem;
+}
+
+.icons__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.icons__div h2{
+    text-align: center;
+}
+
+.icon {
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--color-gris);
+    border-radius: 50%;
+    padding: 1rem;
+    object-fit: cover;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .icon {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sobremi__text p{
+        font-size: 2.5rem;
+    }
+
+    .icon {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .sobremi__text p{
+        font-size: 2rem;
+    }
+
+    .icon {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .sobremi__text p{
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+

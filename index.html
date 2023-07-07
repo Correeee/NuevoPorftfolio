@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,15 @@
     <!-- ---------------------------- FONTS ----------------------------- -->
     <link href="https://fonts.cdnfonts.com/css/apercu-pro" rel="stylesheet">
     <!-- ------------------------------- ANIMATE ------------------------------- -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- ------------------------------ STYLE CSS ------------------------------ -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sobremi__section.css">
+    <link rel="stylesheet" href="./css/projects__section.css">
     <link rel="shortcut icon" href="./multimedia/icono-pagina.png" type="image/x-icon">
     <title>Maximiliano Correa | Developer</title>
 </head>
+
 <body>
     <main>
         <div class="main__text">
@@ -23,28 +27,44 @@
                 <div class="bar__progress"></div>
             </div>
             <div class="bar__percentage">
-                    <div class="bar__text">
-                        <h3 id="progressNumber">0</h3><h3>%</h3>
-                    </div>
-                    <div class="bar__iconos">
-                        <img src="./multimedia/iconos/html-5.png" alt="html-5" class="bar__icon animate__animated animate__flip" id="html">
-                        <img src="./multimedia/iconos/css-3.png" alt="css3" class="bar__icon animate__animated animate__flip" id="css">
-                        <img src="./multimedia/iconos/bootstrap.png" alt="bootstrap" class="bar__icon animate__animated animate__flip" id="bootstrap">
-                        <img src="./multimedia/iconos/js.png" alt="javascript" class="bar__icon animate__animated animate__flip" id="javascript">
-                        <img src="./multimedia/iconos/react.png" alt="react" class="bar__icon animate__animated animate__flip" id="react">
-                    </div>
+                <div class="bar__text">
+                    <h3 id="progressNumber">0</h3>
+                    <h3>%</h3>
+                </div>
+                <div class="bar__iconos">
+                    <img src="./multimedia/iconos/html-5.png" alt="html-5"
+                        class="bar__icon animate__animated animate__flip" id="html">
+                    <img src="./multimedia/iconos/css-3.png" alt="css3"
+                        class="bar__icon animate__animated animate__flip" id="css">
+                    <img src="./multimedia/iconos/bootstrap.png" alt="bootstrap"
+                        class="bar__icon animate__animated animate__flip" id="bootstrap">
+                    <img src="./multimedia/iconos/js.png" alt="javascript"
+                        class="bar__icon animate__animated animate__flip" id="javascript">
+                    <img src="./multimedia/iconos/react.png" alt="react"
+                        class="bar__icon animate__animated animate__flip" id="react">
+                </div>
             </div>
             <div class="main__redes animate__animated animate__bounceIn animate__delay-2s">
-                <a href="https://www.linkedin.com/in/maximiliano-correa-developer/" target="_blank"><img src="./multimedia/iconos/linkedin.png" alt="LinkedIn" class="main__redes_iconos"></a>
-                <a href="https://github.com/Correeee" target="_blank"><img src="./multimedia/iconos/github.png" alt="GitHub" class="main__redes_iconos"></a>
-                <a href="https://drive.google.com/u/1/uc?id=1rSwt92uYawn8qEgalUOnbbyAvouG6Fjg&export=download" target="_blank"><img src="./multimedia/iconos/cv.png" alt="Curriculum" class="main__redes_iconos"></a>
-                <a href="mailto:correa755@hotmail.com?subject=Propuesta Laboral" target="_blank"><img src="./multimedia/iconos/outlook.png" alt="Email" class="main__redes_iconos main__redes_iconos-contacto"></a>
+                <a href="https://www.linkedin.com/in/maximiliano-correa-developer/" target="_blank"><img
+                        src="./multimedia/iconos/linkedin.png" alt="LinkedIn" class="main__redes_iconos"></a>
+                <a href="https://github.com/Correeee" target="_blank"><img src="./multimedia/iconos/github.png"
+                        alt="GitHub" class="main__redes_iconos"></a>
+                <a href="https://drive.google.com/u/1/uc?id=1rSwt92uYawn8qEgalUOnbbyAvouG6Fjg&export=download"
+                    target="_blank"><img src="./multimedia/iconos/cv.png" alt="Curriculum"
+                        class="main__redes_iconos"></a>
+                <a href="mailto:correa755@hotmail.com?subject=Propuesta Laboral" target="_blank"><img
+                        src="./multimedia/iconos/outlook.png" alt="Email"
+                        class="main__redes_iconos main__redes_iconos-contacto"></a>
             </div>
             <header class="animate__animated animate__slideInLeft">
                 <nav>
                     <ul>
-                        <a href="./html/sobremi.html"><li>SOBRE MI</li></a>
-                        <a href="./html/proyectos.html"><li>PROYECTOS</li></a>
+                        <a href="#sobremi__section">
+                            <li>SOBRE MI</li>
+                        </a>
+                        <a href="#projects__section">
+                            <li>PROYECTOS</li>
+                        </a>
                     </ul>
                 </nav>
             </header>
@@ -53,6 +73,55 @@
             <img src="./multimedia/fotografia.png" alt="fotografia">
         </div>
     </main>
-<script src="./js/script.js"></script>
+    <section id="sobremi__section">
+        <div class="sobremi__text">
+            <p>Soy un <span>desarrollador front-end</span> en proceso de convertirse en un <span>desarrollador full-stack</span>.</p>
+            <p>Actualmente, estoy enfocado en ampliar mis habilidades en el desarrollo de backend.</p>
+            <p>Estoy estudiando diversos lenguajes y tecnologías para fortalecer mi conocimiento en el manejo de
+                servidores, bases de datos y la implementación de lógica de negocio en el lado del servidor.</p>
+        </div>
+        <div class="icons">
+            <div class="icons__div">
+                <img src="./multimedia/iconos/html-5.png" alt="html" class="icon">
+                <h2>HTML</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos/css-3.png" alt="css" class="icon">
+                <h2>CSS</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos/js.png" alt="javascript" class="icon">
+                <h2>Javascript</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos/react.png" alt="react" class="icon">
+                <h2>React.JS</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos-sobremi/express.png" alt="express" class="icon">
+                <h2>Express</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos-sobremi/mongodb.png" alt="mongodb" class="icon">
+                <h2>MongoDB</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos-sobremi/firebase.png" alt="firebase" class="icon">
+                <h2>Firebase</h2>
+            </div>
+            <div class="icons__div">
+                <img src="./multimedia/iconos/bootstrap.png" alt="bootstrap" class="icon">
+                <h2>Bootstrap</h2>
+            </div>
+        </div>
+
+    </section>
+    <section id="projects__section">
+
+
+    </section>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>

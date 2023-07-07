@@ -2,6 +2,7 @@ html{
     font-size: 62.5%;
     background-color: #E8E8E8;
     font-family: 'Apercu Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -14,6 +15,7 @@ body{
     margin: 0;
     padding: 0;
     user-select: none;
+    overflow-x: hidden;
 }
 
 main{
@@ -290,6 +292,11 @@ nav ul a:hover{
         margin-right: 2.4rem;
     }
 
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
 }
 
 
