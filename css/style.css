@@ -3,6 +3,7 @@ html{
     background-color: #E8E8E8;
     font-family: 'Apercu Pro', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root{
