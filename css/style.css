@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 62.5%;
     background-color: #E8E8E8;
     font-family: 'Apercu Pro', sans-serif;
@@ -6,19 +6,19 @@ html{
     overflow-x: hidden;
 }
 
-:root{
+:root {
     --color-negro: #222222;
     --color-gris: #E9E9E9;
     --color-rojo: #e63946;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     user-select: none;
 }
 
-main{
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -29,42 +29,42 @@ main{
     flex-wrap: wrap;
 }
 
-.main__text{
+.main__text {
     text-align: start;
 }
 
-.main__text h1{
+.main__text h1 {
     font-size: 8rem;
     font-weight: bold;
     margin: 0;
 }
 
-.main__text h2{
+.main__text h2 {
     font-size: 6rem;
     font-weight: bold;
     margin: 0;
     border-top: 3px solid var(--color-negro);
 }
 
-.main__img{
+.main__img {
     margin: 0rem 2rem;
 }
 
-.main__img img{
+.main__img img {
     width: 50rem;
     height: 50rem;
     border: 10px solid var(--color-negro);
     border-radius: 100%;
     box-shadow: 20px 20px 60px #bebebe,
-    -20px -20px 60px #ffffff;
+        -20px -20px 60px #ffffff;
 }
 
-.main__redes{
+.main__redes {
     width: 100%;
     margin: 4rem 0;
 }
 
-.main__redes_iconos{
+.main__redes_iconos {
     width: 7rem;
     height: 7rem;
     border: 3px solid white;
@@ -73,44 +73,46 @@ main{
     margin: 0 1.5rem;
     background-color: white;
     box-shadow: 20px 20px 60px #bebebe,
-    -20px -20px 60px #ffffff;
+        -20px -20px 60px #ffffff;
 }
 
-.main__redes_iconos-contacto{
+.main__redes_iconos-contacto {
     border-color: #2196F3;
     animation: zoom 2.5s infinite;
     padding: 0;
 }
 
 @keyframes zoom {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.2);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
 
-.main__redes_iconos:hover{
+.main__redes_iconos:hover {
     transform: scale(1.2);
 }
 
 /* ----------------------------------- NAV ---------------------------------- */
 
-header{
+header {
     box-shadow: 20px 20px 60px #bebebe,
-    -20px -20px 60px #ffffff;
+        -20px -20px 60px #ffffff;
 }
 
-nav{
+nav {
     margin-top: 3rem;
     width: 100%;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -119,7 +121,7 @@ nav ul{
     background-color: var(--color-negro);
 }
 
-nav ul a{
+nav ul a {
     font-size: 2.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -129,14 +131,14 @@ nav ul a{
     margin: 0 0.25rem;
 }
 
-nav ul a:hover{
+nav ul a:hover {
     color: var(--color-rojo);
 }
 
 
 /* -------------------------------- QUIEN SOY ------------------------------- */
 
-.sobremi{
+.sobremi {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,7 +149,7 @@ nav ul a:hover{
 
 /* --------------------------------- BACK --------------------------------- */
 
-.back img{
+.back img {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -163,7 +165,7 @@ nav ul a:hover{
     padding: 1rem;
 }
 
-.back img:hover{
+.back img:hover {
     opacity: 100%;
     transform: scale(1.2);
 }
@@ -175,7 +177,7 @@ nav ul a:hover{
 }
 
 ::-webkit-scrollbar-track {
-    background: white;
+    background: none;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -183,28 +185,28 @@ nav ul a:hover{
 }
 
 /* ----------------------------------- BAR ---------------------------------- */
-.bar__all{
+.bar__all {
     display: flex;
     flex-direction: row;
 }
 
-.bar{
+.bar {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 2rem;
     background-color: var(--color-negro);
-    margin: 1rem 0 ;
+    margin: 1rem 0;
 }
 
-.bar__progress{
+.bar__progress {
     width: 0%;
     height: 100%;
     background-color: var(--color-rojo);
     animation: progress 3s ease 1s forwards;
 }
 
-.bar__percentage{
+.bar__percentage {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -212,7 +214,7 @@ nav ul a:hover{
     margin-top: 0.8rem;
 }
 
-.bar__text{
+.bar__text {
     display: flex;
     flex-direction: row;
     width: 4rem;
@@ -220,11 +222,11 @@ nav ul a:hover{
     margin: 0 4rem 0 0;
 }
 
-.bar__text h3{
+.bar__text h3 {
     margin: 0 0;
 }
 
-.bar__iconos{
+.bar__iconos {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -234,19 +236,20 @@ nav ul a:hover{
 }
 
 @keyframes progress {
-    from{
+    from {
         width: 0%;
     }
-    to{
+
+    to {
         width: 50%;
     }
 }
 
-.main__text h3{
+.main__text h3 {
     font-size: 3rem;
 }
 
-.bar__icon{
+.bar__icon {
     display: none;
     width: 3.5rem;
     height: 3.5rem;
@@ -257,36 +260,40 @@ nav ul a:hover{
 
 @media screen and (max-width: 1391px) {
 
-    main{
+    main {
         flex-direction: column;
     }
-    .main__text{
+
+    .main__text {
         text-align: center;
     }
 
-    .main__text{
+    .main__text {
         text-align: center;
     }
-    .main__text h1{
+
+    .main__text h1 {
         font-size: 6rem;
     }
-    .main__text h2{
+
+    .main__text h2 {
         font-size: 4rem;
     }
 
-    .main__redes{
+    .main__redes {
         margin: 2rem 0;
     }
 
-    .main__img{
-        margin: 2rem ;
+    .main__img {
+        margin: 2rem;
     }
-    .main__img img{
+
+    .main__img img {
         width: 30rem;
         height: 30rem;
     }
 
-    .bar__icon{
+    .bar__icon {
         width: 3rem;
         height: 3rem;
         margin-right: 2.4rem;
@@ -294,29 +301,30 @@ nav ul a:hover{
 
 }
 
-section{
+section {
     width: 100vw;
     height: 100vh;
 }
 
 
 @media screen and (max-width: 768px) {
-    .main__text h1{
+    .main__text h1 {
         font-size: 5rem;
     }
-    .main__text h2{
+
+    .main__text h2 {
         font-size: 3rem;
     }
 
-    .bar__text{
+    .bar__text {
         margin-right: 1rem;
     }
 
-    .bar__text h3{
+    .bar__text h3 {
         font-size: 1.8rem;
     }
 
-    .bar__icon{
+    .bar__icon {
         width: 2rem;
         height: 2rem;
         margin-right: 3rem;
@@ -325,33 +333,35 @@ section{
 
 @media screen and (max-width: 550px) {
 
-    .main__text h1{
+    .main__text h1 {
         font-size: 3.5rem;
     }
-    .main__text h2{
-        font-size: 2rem;
-    }
-    nav ul a{
+
+    .main__text h2 {
         font-size: 2rem;
     }
 
-    .main__img img{
+    nav ul a {
+        font-size: 2rem;
+    }
+
+    .main__img img {
         width: 35rem;
         height: 35rem;
     }
 
-    .main__redes_iconos{
+    .main__redes_iconos {
         width: 5rem;
         height: 5rem;
     }
 
-    .bar__icon{
+    .bar__icon {
         width: 2rem;
         height: 2rem;
         margin-right: 1rem;
     }
 
-    .back img{
+    .back img {
         width: 3rem;
         height: 3rem;
     }
@@ -359,23 +369,25 @@ section{
 }
 
 @media screen and (max-width: 425px) {
-    
-    .main__text h1{
+
+    .main__text h1 {
         font-size: 3rem;
     }
-    .main__text h2{
+
+    .main__text h2 {
         font-size: 1.5rem;
     }
-    nav ul a{
+
+    nav ul a {
         font-size: 1.8rem;
     }
 
-    .main__img img{
+    .main__img img {
         width: 30rem;
         height: 30rem;
     }
 
-    .bar__icon{
+    .bar__icon {
         width: 1.9rem;
         height: 1.9rem;
         margin-right: 1rem;
@@ -383,29 +395,30 @@ section{
 }
 
 @media screen and (max-width: 375px) {
-    nav ul a{
+    nav ul a {
         font-size: 1.5rem;
     }
 
-    .main__redes_iconos{
+    .main__redes_iconos {
         width: 4rem;
         height: 4rem;
     }
 
 
-    .main__img{
+    .main__img {
         margin: 2rem 0rem;
     }
 
-    .main__img img{
+    .main__img img {
         width: 25rem;
         height: 25rem;
     }
 
-    .bar__text h3{
+    .bar__text h3 {
         font-size: 1.5rem;
     }
-    .bar__icon{
+
+    .bar__icon {
         width: 1.5rem;
         height: 1.5rem;
         margin-right: 0.9rem;
@@ -413,7 +426,7 @@ section{
 }
 
 @media screen and (max-width: 375px) {
-    .main__redes_iconos{
+    .main__redes_iconos {
         width: 3.5rem;
         height: 3.5rem;
     }
