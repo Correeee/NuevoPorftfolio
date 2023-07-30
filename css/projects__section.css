@@ -33,25 +33,27 @@
         22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
         41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
         100px 100px 80px rgba(0, 0, 0, 0.07);
-        margin: 1.25rem;
-        transition: 0.5s;
+    margin: 1.25rem;
+    transition: 0.5s;
 }
 
-.card__container:hover{
+.card__container:hover {
     transform: scale(1.1);
     filter: drop-shadow(0px 0px 10px var(--color-negro));
 }
 
-.card__container :nth-child(2){
+.card__container :nth-child(2) {
     background-color: white;
     width: 100%;
     padding: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: black;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
 }
 
-.card__texts{
+.card__texts {
     background-image: url(../multimedia/background/sobremi.png);
     background-position: center;
     background-size: cover;
@@ -88,23 +90,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .sobremi__text p{
+    .sobremi__text p {
         font-size: 2.5rem;
     }
 }
 
-@media  screen and (max-width: 768px) {
-    .icons{
+@media screen and (max-width: 768px) {
+    .icons {
         margin: 2rem 0;
     }
-    .sobremi__text p{
+
+    .sobremi__text p {
         font-size: 2.25rem;
     }
-    .card__container{
+
+    .card__container {
         width: 40rem;
     }
 
-    .card__container:hover{
+    .card__container:hover {
         transform: none;
         filter: none;
     }
@@ -112,25 +116,25 @@
 
 }
 
-@media  screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
-    .sobremi__text p{
+    .sobremi__text p {
         font-size: 2rem;
     }
 
-    .card__container img{
+    .card__container img {
         width: 25rem;
     }
 
-    .card__container{
+    .card__container {
         width: 30rem;
         height: 45rem;
     }
 }
 
-@media  screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 
-    .sobremi__text p{
+    .sobremi__text p {
         font-size: 1.75rem;
     }
 
